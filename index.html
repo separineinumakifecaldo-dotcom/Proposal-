@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proposal Date❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating Hearts Container -->
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <!-- Background Music ("Rude" by MAGIC!) -->
+  <audio id="bgMusic" loop>
+    <source src="rude.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- Music Control Pill -->
+  <button class="music-btn" id="musicBtn">🎵 Play "Rude" - MAGIC!</button>
+
+  <!-- Main Glass Card -->
+  <main class="card" id="mainCard">
+    <!-- Proposal View -->
+    <div id="proposalView">
+      <div class="emoji-header" id="moodEmoji">🥺👉👈</div>
+      <h1 class="title">Will you go on a date with me?</h1>
+      <p class="subtitle" id="subText">I promise good food, great vibes, and unlimited laughs ✨</p>
+
+      <div class="btn-group" id="btnGroup">
+        <button class="btn yes-btn" id="yesBtn">Yes! 💖</button>
+        <button class="btn no-btn" id="noBtn">No 😢</button>
+      </div>
+    </div>
+
+    <!-- Celebration View (Hidden until she clicks Yes) -->
+    <div id="celebrationView" class="hidden">
+      <div class="emoji-header bounce">🤧😭😝💐</div>
+      <h1 class="love-title">I love you mahal ko</h1>
+      <p class="subtitle">
+        I love you so much mahal ko,i know all this time hindi natutuloy date natin ❤️✨
+      </p>
+      <div class="date-badge">Finally i hope na matuloy! 🥂🌹</div>
+    </div>
+  </main>
+
+  <script src="render.js"></script>
+</body>
+</html>
